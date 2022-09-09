@@ -3,16 +3,12 @@ import './App.css';
 import React from 'react'
 import {Header,Content,Footer} from './func-components'
 import MsgBox from './class-props';
+import RefsArray from './refs-array';
+import MessageBox from './state-func';
 
 function App() {
   return (
-    <MsgBox
-      text = "React & React Native"
-      color = "red"
-      bgColor = "#ccc"
-      fontSize = "18pt"
-      border = "solid 10px black"
-    />
+    <MessageBox/>
   );
 }
 
