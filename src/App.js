@@ -6,10 +6,11 @@ import MsgBox from './class-props';
 import RefsArray from './refs-array';
 import MessageBox from './state-func';
 import FormBootstrap from './form-bootstrap'
+import FromValidation from './form-validation';
 
 function App() {
   return (
-    <FormBootstrap/>
+    <FromValidation/>
   );
 }
 
